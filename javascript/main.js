@@ -73,22 +73,7 @@ const freemaninit = (function() {
         }
     };
     
-    // click button menu burger
-    const buttonclick = function(e) {
-        // menu mobile toggle
-        mobilenav.addEventListener("click", function(e) {
-            //your handler here
-            this.classList.toggle('active');
-            body.classList.toggle('openmenu');
-        }, false);
-        // mobile link navigation 
-        for (var i = 0; i < mobilelink.length; i++) {
-            mobilelink[i].addEventListener('click', function(e) {
-                mobilenav.classList.toggle('active');
-                body.classList.toggle('openmenu');
-            }, false);
-        };
-    };
+ 
     
     // page scroll mantem o nav colorido enquanto rola p baixo
     const scrollpage = function(e) {
