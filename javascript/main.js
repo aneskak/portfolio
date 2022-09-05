@@ -91,33 +91,20 @@ const freemaninit = (function() {
             // allways force page to scroll top on refresh
             window.scrollTo(0, 0);
         };
-        // window load
-        window.addEventListener('load', (e) => {
-            // page load
-            loadder();
-        });
+
         // document load
         window.addEventListener('DOMContentLoaded', (e) => {
-            // button event 
-            buttonclick();
+
             //type animation 
             typeanimation();
-            // slider service 
-            servicesslider();
-            // portfolio 
-            portofolio();
-            // glightbox 
-            glight();
-            // year 
-            yearele.innerHTML = year;
+
         });
         window.addEventListener("scroll", (e) => {
             // scrollspy
             scrolspy();
             // scroll window 
             scrollpage();
-            // counter 
-            counternumber();
+
         });
     };
     // init - initilizes elements and events

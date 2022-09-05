@@ -1,7 +1,5 @@
-
-    @import url(../font/fontawesome/all.min.css);
-    @import url(../css//bootstrap.css);
-    @import url(../font/fontawesome/all.min.css);
+	@import url(../css//bootstrap.css);
+   
     @font-face {
         font-family: "Poppins";
         font-style: normal; 
