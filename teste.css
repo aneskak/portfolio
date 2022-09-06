@@ -19,11 +19,7 @@ Filename      : main.css
 * 08.FOOTER SECTION. 
 * ----------------------------------------------------------------------------------------
 */
-    
-@import url(./vendor/bootstrap/bootstrap.css);
-@import url(./vendor/fontawesome/all.min.css);
-@import url(./vendor/keen-slider.css);
-@import url(./vendor/glightbox.css);
+@import url(../css//bootstrap.css);
 @font-face {
     font-family: "Poppins";
     font-style: normal;

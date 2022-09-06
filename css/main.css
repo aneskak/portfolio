@@ -1,38 +1,10 @@
 	@import url(../css//bootstrap.css);
-   
-    @font-face {
-        font-family: "Poppins";
-        font-style: normal; 
-        font-weight: 700;
-        src: url("../font/Poppins-Bold.woff2") format("woff2");
-        font-display: swap;
-    }
-    
-    @font-face {
-        font-family: "Poppins";
-        font-style: normal;
-        font-weight: 600;
-        src: url("../font/Poppins-SemiBold.woff2") format("woff2");
-        font-display: swap;
-    }
-    
-    @font-face {
-        font-family: "Poppins";
-        font-style: normal;
-        font-weight: 400;
-        src: url("../font/Poppins-Regular.woff2") format("woff2");
-        font-display: swap;
-    }
        /*
 * ----------------------------------------------------------------------------------------
 * 01.BASE CSS. 
 * ----------------------------------------------------------------------------------------
 */
     
-* {
-	-webkit-font-smoothing: antialiased;
-}
-
 body {
 	font-family: 'Poppins';
 	font-size: 15px;
@@ -414,7 +386,9 @@ img {width: 80%;
 
 /*-------------------------- ! inicio skills!-------------------------------*/
 
-
+.bg-write {
+	background-color: #ffffff;
+}
 
 /*
 *
