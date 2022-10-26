@@ -4,18 +4,30 @@
 * 01.BASE CSS. 
 * ----------------------------------------------------------------------------------------
 */
-    
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap');
+
+.infohero span {
+	font-family: 'VT323', monospace;
+}
+
+
+
 body {
-	font-family: 'Poppins';
+	font-family: 'Kanit', sans-serif;
 	font-size: 15px;
 	font-weight: 400;
-	background: #FFDB67;
+	background: #ac96b1;
 	color: #181715;
 	text-rendering: optimizeLegibility;
 }
 
  ::selection {
-	background: #ddaa01;
+	background: #755e7a;
 	color: #ffffff;
 }
 
@@ -24,8 +36,8 @@ a:hover {
 }
 
 .fixid {
-	background: #FFDB67;
-	box-shadow: 0 0 10px 5px rgba(221, 170, 1, .3);
+	background: #ac96b1;
+	box-shadow: 0 0 10px 5px #755e7a66;
 }
 
 label {
@@ -50,7 +62,7 @@ textarea {
 }
 
 .goverlay {
-	background: #FFDB67;
+	background: #ac96b1;
 }
 
 .linkbtn {
@@ -78,7 +90,7 @@ textarea {
 	border: none;
 	width: 20px;
 	height: 2px;
-	background: #ddaa01;
+	background: #755e7a;
 	border-radius: 3px;
 	margin: 10px 5px;
 	padding: 3px;
@@ -210,9 +222,9 @@ textarea {
 	z-index: 2;
 	top: -100%;
 	display: none;
-	background: #FFDB67;
+	background: #ac96b1;
 	padding: 80px 0 30px 0;
-	border-bottom: 1px solid #ddaa01;
+	border-bottom: 1px solid #755e7a;
 }
 
 .overlay__listnav {
@@ -253,7 +265,7 @@ textarea {
 	padding: 100px 0 0;
 }
 
-.infohero__p {
+.black-box {
 	font-size: 20px;
 	letter-spacing: 1px;
 	padding: 5px 20px;
@@ -262,15 +274,14 @@ textarea {
 	background: #181715;
 }
 
+
 .infohero__title {
 	font-size: 80px;
-	font-weight: 600;
-	text-shadow: 5px 5px #ddaa01;
+	font-weight:900;
+	text-shadow: 5px 5px #755e7a;
+	font-family: 'Corinthia', cursive; 
 }
 
-.infohero__title span {
-	display: block;
-}
 
 .heroimg {
 	height: 350px;
@@ -283,7 +294,7 @@ textarea {
 	height: 350px;
 	width: 350px;
 	object-fit: cover;
-	box-shadow: 20px 20px 1px 1px #ddaa01;
+	box-shadow: 20px 20px 1px 1px #755e7a;
 	border: 7px solid;
 }
 
@@ -338,9 +349,7 @@ textarea {
 img {width: 80%;
 	height: auto;}
 
-.col-6 h2, .col-6 span {
-	color: #870096;
-}
+
 
 
 /*-------------------------------- ! inicio  area partículas !------------------------------------*/
@@ -531,7 +540,7 @@ html:not(.lt-ie10) .not-animated {
     
 #contato {
 	height: auto;
-	background: #f3cbff;
+	background: #ac96b1;
 	padding: 0 0 50px;
 }
 
